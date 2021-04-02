@@ -16,6 +16,17 @@ function App() {
           </div>
         );
       })}
+
+      <div className="btndiv">
+        {/* Clearing items list from this button */}
+        <button
+          type="button"
+          className="btnClear"
+          onClick={() => setPeople([])}
+        >
+          Clear Items
+        </button>
+      </div>
     </section>
   );
 }
