@@ -1,38 +1,36 @@
+/* body {
+  background-color: rgb(226, 236, 236);
+}
+
 .App {
+  width: 60%;
+  margin: 0px auto;
+}
+
+.persondiv {
+  padding: 10px;
+  border-radius: 3px;
+
+  margin: 10px 0;
+  background-color: rgb(245, 245, 245);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btndiv {
+  padding: 20px;
   text-align: center;
 }
+.btnClear {
+  width: 150px;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  padding: 5px;
+  outline: none;
+  border: none;
+  background-color: rgb(34, 150, 218);
+  border-radius: 3px;
+  font-size: 18px;
+  color: aliceblue;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.btnClear:hover {
+  background-color: rgb(5, 108, 168);
+} */
