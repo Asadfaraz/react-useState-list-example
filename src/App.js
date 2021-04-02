@@ -6,6 +6,13 @@ function App() {
   // useSTate for data
   const [people, setPeople] = React.useState(data);
 
+  // Removing single Item from list on button function
+  const removeItem = (id) => {
+    const newData = people.filter((person) => person.id != id);
+    // setting new data
+    setPeople(newData);
+  };
+
   return (
     <section className="App">
       {people.map((person) => {
@@ -13,6 +20,10 @@ function App() {
         return (
           <div key={id} className="persondiv">
             <h4>{name}</h4>
+            {/* Button for removing 1 item */}
+            <button type="button" onClick={() => removeItem(id)}>
+              Remove Item
+            </button>
           </div>
         );
       })}

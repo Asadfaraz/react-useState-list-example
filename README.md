@@ -21,3 +21,9 @@ screen. Using the onClick function on this button I remove all the
 elements from the data.
 
 Also Added some CSS for little bit styling.
+
+### Third Commit
+
+Added single remove item buttons infront of every item. User can click on that and remove an item from the data list.
+
+Also Added some CSS for little bit styling.
